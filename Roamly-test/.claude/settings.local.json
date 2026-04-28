@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(file \"/home/angad-kamra/Downloads/Final Roamly Design/\"*)",
+      "Bash(npm run *)",
+      "Bash(grep -E \"\\\\.\\(tsx|ts|json\\)$\")",
+      "Bash(xargs basename *)",
+      "Bash(echo \"Frontend PID: $!\")",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:5173)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:8080/api/health)",
+      "WebFetch(domain:localhost)",
+      "Bash(curl -s http://localhost:5173/)",
+      "Bash(npx tsc *)"
+    ]
+  }
+}
